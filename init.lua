@@ -1,3 +1,4 @@
+--- To prevent from using the arrow keys when learning vim
 if vim.g.vscode then
 	vim.opt.clipboard = 'unnamedplus'
 	vim.keymap.set({'n', 'x'}, '<down>', '')   
