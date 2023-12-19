@@ -13,7 +13,7 @@ if vim.g.vscode then
     vskeymap({'n', 'x'}, '<leader><leader>', 'workbench.action.showCommands')
     vskeymap({'n', 'x'}, ';', 'workbench.action.showEditorsInActiveGroup')
     vskeymap({'n', 'x'}, '<leader>t', 'terminal.focus')
-
+    vskeymap({'n', 'x'}, '<leader>o', 'workbench.action.files.openFolder')
     -- Error navigation
     vskeymap({'n', 'x'}, "]d", "editor.action.marker.next")
     vskeymap({'n', 'x'}, "[d", "editor.action.marker.prev")
